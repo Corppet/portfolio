@@ -72,7 +72,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7 place-content-center">
         {projects.map((project, index) => (
           <ProjectCard 
             key = {`project-${index}`}
@@ -85,4 +85,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "")
+export default SectionWrapper(Works, "work")
