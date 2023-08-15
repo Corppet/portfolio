@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
-import { slideIn } from '../utils/motion';
+import { fadeIn, slideIn } from '../utils/motion';
 
 const Contact = () => {
   const formRef = useRef();
@@ -61,6 +61,16 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
+
+        <div className="w-full flex">
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        >
+          If your message cannot be sent, you can also contact me directly at&nbsp;
+          <a href="mailto:ivanh322@gmail.com" className="text-[#0effff] hover:underline">ivanh322@gmail.com</a>
+        </motion.p>
+      </div>
 
         <form
           ref={formRef}
