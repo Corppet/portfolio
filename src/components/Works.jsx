@@ -2,7 +2,7 @@ import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { github } from '../assets';
+import { github, hyperlink } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -27,13 +27,13 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center 
+              className="bg-gradient-to-b from-cyan-500 w-10 h-10 rounded-full flex justify-center 
               items-center cursor-pointer"
             >
               <img 
-                src={github}
-                alt="github"
-                className="w-full h-full object-contain"
+                src={hyperlink}
+                alt="hyperlink"
+                className="w-3/4 h-3/4 object-contain"
               />
             </div>
           </div>
@@ -68,7 +68,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Here are some of the projects I have worked on.
+          Here are some of the projects I have worked on. More video game projects are 
+          available on my&nbsp;
+          <a href="https://corppet.itch.io/" target="_blank" rel="noreferrer" 
+          className="text-[#0effff] hover:underline">itch.io</a>
+          &nbsp;page.
         </motion.p>
       </div>
 

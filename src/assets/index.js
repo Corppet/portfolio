@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import hyperlink from "./hyperlink.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -31,6 +32,20 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import dassaultsystemes from "./company/dassaultsystemes.png"
+import junilearning from "./company/junilearning.png";
+import glacialglobal from "./company/glacialglobal.png";
+import cmu from "./company/cmu.png";
+
+import waves from "./projects/waves.png";
+import legup from "./projects/legup.png";
+import astralchart from "./projects/astralchart.png";
+import flighttracker from "./projects/flighttracker.png";
+
+import beru from "./portraits/beru.png";
+import hentie from "./portraits/hentie.png";
+import sungjinwoo from "./portraits/sungjinwoo.png";
+import ivanho from "./portraits/ivanho.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -45,6 +60,7 @@ export {
   github,
   menu,
   close,
+  hyperlink,
   css,
   docker,
   figma,
@@ -58,6 +74,12 @@ export {
   tailwind,
   typescript,
   threejs,
+  unity,
+  unrealengine,
+  python,
+  csharp,
+  cpp,
+  java,
   meta,
   shopify,
   starbucks,
@@ -65,10 +87,16 @@ export {
   carrent,
   jobit,
   tripguide,
-  unity,
-  unrealengine,
-  python,
-  csharp,
-  cpp,
-  java,
+  waves,
+  legup,
+  astralchart,
+  flighttracker,
+  dassaultsystemes,
+  junilearning,
+  glacialglobal,
+  cmu,
+  beru,
+  hentie,
+  sungjinwoo,
+  ivanho,
 };
