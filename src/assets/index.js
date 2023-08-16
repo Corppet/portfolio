@@ -51,6 +51,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import resume from "./Ivan Ho - Resume.pdf";
+
 export {
   logo,
   backend,
@@ -99,4 +101,5 @@ export {
   hentie,
   sungjinwoo,
   ivanho,
+  resume,
 };

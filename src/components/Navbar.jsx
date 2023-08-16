@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import { logo, menu, close } from '../assets'
+import { logo, menu, close, resume } from '../assets'
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -45,7 +45,7 @@ const Navbar = () => {
             </li>
           ))}
           <li>
-            <a href="../src/assets/resume.pdf" target="_blank">
+            <a href={resume} target="_blank" rel="noreferrer">
               <button className="inline-flex items-center rounded-md 
               bg-[#00ffff] px-3 py-2 font-semibold shadow-sm hover:bg-[#066c6c] 
               text-primary text-[16px] font-medium cursor-pointer transition-all duration-300">
@@ -87,7 +87,7 @@ const Navbar = () => {
                 </li>
               ))}
               <li>
-                <a href="../src/assets/resume.pdf" target="_blank">
+                <a href={resume} target="_blank">
                   <button className="inline-flex items-center rounded-md 
               bg-[#00ffff] px-3 py-2 font-semibold shadow-sm hover:bg-[#066c6c] 
               text-primary text-[16px] font-medium cursor-pointer transition-all duration-300">
