@@ -18,7 +18,7 @@ const Hero = () => {
             Hi, I&apos;m <span className="text-[#00ffff]">Ivan</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I program stuff.
+            I write simplified and broken english for computers to interpret.
           </p>
           <div className={`${styles.paddingY}`}>
           </div>
