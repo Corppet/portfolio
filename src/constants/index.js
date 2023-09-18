@@ -26,6 +26,7 @@ import {
     legup,
     astralchart,
     flighttracker,
+    stepmania,
     threejs,
     unity,
     unrealengine,
@@ -279,6 +280,29 @@ import {
       image: astralchart,
       source_code_link: "https://corppet.itch.io/astral-chart",
     },
+    {
+      name: "Stepmania Agents",
+      description:
+        "A machine learning project focused on training agents to play StepMania, " + 
+        "an open-source rhythm game where players need to make keyboard inputs in " + 
+        "a specific sequence.",
+      tags: [
+        {
+          name: "unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tensorflow",
+          color: "green-text-gradient",
+        },
+      ],
+      image: stepmania,
+      source_code_link: "https://github.com/Corppet/stepmania-agents",
+    }
   ];
 
   const testimonials = [

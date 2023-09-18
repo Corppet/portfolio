@@ -41,6 +41,7 @@ import waves from "./projects/waves.png";
 import legup from "./projects/legup.png";
 import astralchart from "./projects/astralchart.png";
 import flighttracker from "./projects/flighttracker.png";
+import stepmania from "./projects/stepmania.png";
 
 import beru from "./portraits/beru.png";
 import hentie from "./portraits/hentie.png";
@@ -93,6 +94,7 @@ export {
   legup,
   astralchart,
   flighttracker,
+  stepmania,
   dassaultsystemes,
   junilearning,
   glacialglobal,
